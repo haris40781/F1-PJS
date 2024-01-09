@@ -2,7 +2,7 @@ console.log("WELCOME TO PJS");
 console.log("HELLO WORLD");
 
 // DATA TYPES
-firstName = "Haris";
+firstName = "Haris";      
 age = 21;
 x = "null";
 y = undefined;
@@ -36,6 +36,7 @@ console.log(myAge);
 const pie = 3.14;
 console.log(pie);
 pie = 4.25;
+
 
 
 
