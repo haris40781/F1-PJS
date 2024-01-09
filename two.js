@@ -20,3 +20,13 @@ console.log(myData["grade"])
 for(let i in myData){
     console.log(i , myData[i]);
 }
+
+// ARTHMATIC  OPPERATORS
+let A = 55;
+letB = 65;
+
+console.log("the sum a+b is :", a+b);
+console.log("the sum a-b is: " , a-b);
+console.log("the sum a*b is : " , a*b);
+console.log("the sum a%b is : " , a%b);
+
