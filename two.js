@@ -6,7 +6,7 @@ let myData = {
     "city" :"peshawar",
     "grade" : "C"
 }
-// TWO METHODS TO GET THE VALUW OF AN OBJECT
+// TWO METHODS TO GET THE VALUE OF AN OBJECT
 
 
 // second method
@@ -22,11 +22,13 @@ for(let i in myData){
 }
 
 // ARTHMATIC  OPPERATORS
-let A = 55;
-letB = 65;
+let a = 3;
+let b = 2;
 
-console.log("the sum a+b is :", a+b);
-console.log("the sum a-b is: " , a-b);
-console.log("the sum a*b is : " , a*b);
-console.log("the sum a%b is : " , a%b);
+console.log("the sum of a+b is : " , a+b);
+console.log("the sub of a-b is : " , a-b);
+console.log("the mul of a*b is : " , a*b);
+console.log("the modulus of a%b is : " , a%b);
+console.log("the div of a/b is : " , a/b);
+
 
