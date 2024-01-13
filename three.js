@@ -45,3 +45,19 @@ console.log(true && true);
 console.log(false && true);
 console.log(true && false);
 console.log(true && true);
+
+
+//  INCREEMENT
+let w = 20;
+console.log(w)
+// PRE INCXREMENT add hoga then print hoga
+
+console.log(++w)     // 21
+
+//  post increment print hoga then add hoga
+
+console.log(w++) // 21 +1 
+console.log(w)  //22
+
+w += 10 // w = w + 10 22 + 10 
+console.log(w)
