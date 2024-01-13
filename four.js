@@ -1,22 +1,22 @@
-// let age = 20
-// if(age>= 20){
-//     console.log("you can cast your vote")
+// //  LOOPS
+
+// //  FOR LOOP
+// for(let i=0; i<=10;i++){
+//     console.log("PJS" , i);
 // }
 
-// if(age>= 20){
-//     console.log("you can not cast your vote")
-// }
-
-let mode = prompt('Enter your mode')
-1)DARK
-2)LIGHT
-
-if(mode === "DARK"){
-    color = "black";
-}
-if(mode === "LIGHT"){
-    color = "white"
+for( let B = 0; B<=10;  B*2){
+    console.log("5 x" ,B ,"=" , 5*B);
 }
 
 
-console.log(COLOR);
+let NUM = 70;
+// WHILE LOOP
+while(num<=70){
+    console.log("this is while loop" , num);
+    num++;
+}
+let myValue = prompt("entre your number");
+for(let y=1; y<=10; y++){
+    console.log(`${myValue} x $(y) = ${myValue*y}`)
+}
