@@ -1,31 +1,31 @@
-// let hereos = [ "spider man " , "super man" , "bat man" , "hulk"];
-// console.log(hereos);
-// console.log(hereos[1]);
+let hereos = [ "spider man " , "super man" , "bat man" , "hulk"];
+console.log(hereos);
+console.log(hereos[1]);
 
-// //  METHOD OF AN ARRAY
-// // LAST ME REMOVE KRNA K LIE
-// console.log(hereos.push("acha man"));
-// console.log(hereos);
+//  METHOD OF AN ARRAY
+// LAST ME REMOVE KRNA K LIE
+console.log(hereos.push("acha man"));
+console.log(hereos);
 
-// // LAST ME ADD KARNA  K LIE
-// console.log(hereos.pop());
-// console.log(hereos);
+// LAST ME ADD KARNA  K LIE
+console.log(hereos.pop());
+console.log(hereos);
 
-// // REMOVE FIRST ELEMENT
-// console.log(hereos.shift());
-// console.log(hereos);
+// REMOVE FIRST ELEMENT
+console.log(hereos.shift());
+console.log(hereos);
 
-// //  ADD ELEMENT ON FIRST
-// console.log(hereos.unshift("why man"));
-// console.log(hereos);
+//  ADD ELEMENT ON FIRST
+console.log(hereos.unshift("why man"));
+console.log(hereos);
 
-// //  JHAN TK ELEMNT CHAHIYE HON UNKI PEHLI WALI OR LAST KA JO ELEMNENT HOGA US K BAD WALA TARGET KARAINGY FOR REMOVEL 
-// //  SLICE 
-// console.log(hereos.slice(1,2));
+//  JHAN TK ELEMNT CHAHIYE HON UNKI PEHLI WALI OR LAST KA JO ELEMNENT HOGA US K BAD WALA TARGET KARAINGY FOR REMOVEL //
+//  SLICE 
+console.log(hereos.slice(1,2));
 
-// //  SPLICE
-// console.log(hereos.splice(1,1, "apple" , "mango" , "banana" ));
-// console.log(hereos);
+//  SPLICE JISKI VALUE REMOVE KAR K KUJH AOR ADD KARNA HO TO PHLY USKO TARGET KAR , LAGA K DOSRA JO ADD KARAN HOGA WO ELEMENT LIKHDYTY HN //
+console.log(hereos.splice(1,1, "apple" , "mango" , "banana" ));
+console.log(hereos);
 
 
 //  FOR MERGE 2 OR MORE ARRAY
