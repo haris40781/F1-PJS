@@ -36,7 +36,14 @@
 // let result = grade == "A" || grade == "B" || grade == "C"  ? "PASS" : "FAIL";
 // console.log(result);
 
-let grade = prompt("Enter your Grade");
-let per = prompt("Enter YOur Per");
-let myper =  grade == "A" && per == 90 || grade == "B" && per == 60 || grade == "C" && per == 50 || grade == "D" && per == 40 ? "PASS" : "FAIL"
-console.log(myper);
+// let grade = prompt("Enter your Grade");
+// let per = prompt("Enter YOur Per");
+// let myper =  grade == "A" && per == 90 || grade == "B" && per == 60 || grade == "C" && per == 50 || grade == "D" && per == 40 ? "PASS" : "FAIL"
+// console.log(myper);
+
+
+let str = "ONCE UPON A TIME";
+console.log(str);
+console.log(str.length);
+console.log(str.includes("O"));
+console.log(str.endsWith("E"));
