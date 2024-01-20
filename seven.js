@@ -41,9 +41,3 @@
 // let myper =  grade == "A" && per == 90 || grade == "B" && per == 60 || grade == "C" && per == 50 || grade == "D" && per == 40 ? "PASS" : "FAIL"
 // console.log(myper);
 
-
-let str = "ONCE UPON A TIME";
-console.log(str);
-console.log(str.length);
-console.log(str.includes("O"));
-console.log(str.endsWith("E"));
