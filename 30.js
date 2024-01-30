@@ -10,10 +10,16 @@ function addFood(e){
     newLi.className = `list-group-item d-flex justify-content-between my-2`;
 newLi.innerHTML= `
 <h3 class="flex-grow-1" >${currentFoodName}</h3>
-<button id="BTN" class="btn btn-success mx-2">Read</button>
-<button id="BTN" class="btn btn-warning">Delete</button>
+<button  class="btn btn-success mx-2">Read</button>
+<button  class="btn btn-warning">Delete</button>
 </li>
 `
 let parentlist = document.getElementById('parentlist');
 parentlist.appendChild(newLi);
 }
+
+
+
+
+
+
