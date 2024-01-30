@@ -10,15 +10,35 @@
     body{
         background-color: black;
     }
+    h2{
+     letter-spacing: 20px;
+    }
+    #BTN{
+        border-radius: 12px;
+        box-shadow: 3px yellowgreen;
+    }
+    #add-btn{
+        border-radius: 12px;
+        box-shadow: 3px cyan;
+    }
 </style>
 <body>
+    <h2 class="text-center fw-bold display-3 p-4 text-white bg-dark">FOOD SHOP!🍟</h2>
     <div class="container col-lg-6 mt-5">
         <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
             <button  id="add-btn" class="btn btn-success mx-2" type="button" id="button-addon2">Button</button>
           </div>
+          <ul id="parentlist" class="list-group">
+            <li class="list-group-item d-flex justify-content-between">
+                <h3 class="flex-grow-1" >CHICKEN 🍗</h3>
+                <button id="BTN" class="btn btn-success mx-2">Read</button>
+                <button id="BTN" class="btn btn-warning">Delete</button>
+            </li>
+            
+           </ul>
     </div>
-
+  
     <script src="./30.js"></script>
 </body>
 </html>
